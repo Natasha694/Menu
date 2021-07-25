@@ -1,0 +1,31 @@
+#include<studio.h>
+main()
+{
+//1. Display the numbers
+printf("Pick a number:\n1. 1\n2. 2\n3. 3\n4. 5\n6.");
+//2. Read their choice
+int choice=1;
+scanf("%d",&choice);
+//3. Display based on their choice
+
+switch(choice)
+{
+case1:
+printf("Food item- Pizza, Price- 179");
+break;
+case 2:
+printf("Food item- Sandwich, Price- 149");
+break;
+case 3:
+printf ("Food item- Burger, Price- 129");
+break;
+case 4:
+printf ("Food item- French Fries, Price- 99");
+break;
+case 5:
+printf ("Food item- Pasta, Price- 179");
+break;
+default:
+printf ("Invalid choice.");
+}
+}
